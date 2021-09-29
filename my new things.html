@@ -1,0 +1,72 @@
+<html>
+    <head> 
+        <title>step by step</title>
+        <link rel="stylesheet" href="site.css"/>
+
+
+
+
+<form action="https://httpbin.org/post"  method="POST" >
+    <input type="hidden" value="s-400" name="produtch" />
+
+    <div class="form-row">
+        <label for="adi">Adı</label>
+        <input
+          name="kerem"
+          id="adi"
+          type="text"
+          required
+          placeholder="Adı"
+        />
+      </div>
+
+
+
+<div class="form- row">
+    <label for="tel">telefon</label>
+    <input name="tel" id="tel" type="tel" required />
+</div>
+<div class="form-row">
+    <label for="email">email</label>
+    <input name="email" id="email" type="email" required />
+</div>
+<div class="for-row">
+    <label for="mesaj">mesaj</label>
+    <textarea name="mesaj"id="mesaj" cols="45" rows="3"></textarea>
+</div>
+<div class="form-row">
+    <label for="şehir">şehir</label>
+    <select id="sehir">
+        <option value="istanbul" selected >istanbul</option>
+        <option value="izmir">izmir</option>
+    </select>
+    
+
+</div>
+ 
+<div class="radio-container">
+ 
+<div class="for-row">
+    <p>Sevdiğiniz Renk</p>
+    <label 
+    ><input type="radio" name="renk" value="kırmızı" checked />
+kırmızı</label
+>
+<label><input type="radio" name="renk" value="yeşil" /> yeşil</label>
+</div>
+</div>
+
+
+
+
+
+
+  <div class="form-row">
+      <button type="reset">sıfırla</button>
+        <button type="submit">gönder</button>
+  </div>
+  </form>
+</body>
+  </head> 
+</html>    
+       
